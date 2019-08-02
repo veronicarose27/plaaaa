@@ -1,0 +1,13 @@
+p,u=map(str,input().split())
+k=len(p)
+q=len(u)
+if(k>q):
+    if(k%q!=0):
+        print("yes")
+    else:
+        print("no")
+else:
+    if(q%k!=0):
+        print("yes")
+    else:
+        print("no")
